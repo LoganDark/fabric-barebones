@@ -1,33 +1,33 @@
 {
 	"schemaVersion": 1,
-	"id": "fabric-boilerplate",
+	"id": "barebones",
 	"version": "${version}",
 
-	"name": "Fabric Boilerplate",
+	"name": "Barebones",
 	"description": "Congrats, you made it work!",
 	"authors": ["LoganDark"],
 	"contact": {
-		"sources": "https://github.com/LoganDark/fabric-boilerplate",
-		"website": "https://github.com/LoganDark/fabric-boilerplate",
-		"issues": "https://github.com/LoganDark/fabric-boilerplate/issues"
+		"sources": "https://github.com/LoganDark/fabric-barebones",
+		"website": "https://github.com/LoganDark/fabric-barebones",
+		"issues": "https://github.com/LoganDark/fabric-barebones/issues"
 	},
 
 	"custom": {},
 
 	"license": "GPLv3",
-	"icon": "assets/fabric-boilerplate/icon.png",
+	"icon": "assets/barebones/icon.png",
 
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
 				"adapter": "kotlin",
-				"value": "net.logandark.boilerplate.FabricBoilerplate"
+				"value": "net.logandark.boilerplate.Barebones"
 			}
 		]
 	},
 
-	"mixins": ["fabric-boilerplate.mixins.json"],
+	"mixins": ["barebones.mixins.json"],
 
 	"depends": {
 		"fabricloader": ">=0.8.8",
