@@ -22,7 +22,7 @@
 		"main": [
 			{
 				"adapter": "kotlin",
-				"value": "net.logandark.boilerplate.Barebones"
+				"value": "net.logandark.barebones.Barebones"
 			}
 		]
 	},
