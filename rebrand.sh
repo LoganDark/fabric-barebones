@@ -77,3 +77,5 @@ move ./src/main/resources/assets/barebones \
      ./src/main/resources/assets/"$PKGNAME"
 move ./src/main/resources/barebones.mixins.json \
      ./src/main/resources/"$MODID".mixins.json
+
+rm rebrand.sh
