@@ -58,11 +58,6 @@ replace ./.idea/runConfigurations/Minecraft_Server.xml barebones "$MODID"
 replace ./gradle.properties barebones "$MODID"
 replace ./settings.gradle barebones "$MODID"
 
-replace ./src/main/resources/fabric.mod.json barebones "$MODID"
-replace ./src/main/resources/fabric.mod.json net\\.logandark\\."$MODID" net.logandark."$PKGNAME"
-replace ./src/main/resources/fabric.mod.json Barebones "$CLASSNAME"
-replace ./src/main/resources/barebones.mixins.json barebones "$PKGNAME"
-
 find ./src/main/{java,kotlin} -type f -print0 | xargs -0 sed -i "s/barebones/$PKGNAME/g"
 find ./src/main/{java,kotlin} -type f -print0 | xargs -0 sed -i "s/Barebones/$CLASSNAME/g"
 
@@ -72,6 +67,11 @@ move ./src/main/java/net/logandark/barebones \
      ./src/main/java/net/logandark/"$PKGNAME"
 move ./src/main/kotlin/net/logandark/barebones \
      ./src/main/kotlin/net/logandark/"$PKGNAME"
+
+replace ./src/main/resources/fabric.mod.json barebones "$MODID"
+replace ./src/main/resources/fabric.mod.json net\\.logandark\\."$MODID" net.logandark."$PKGNAME"
+replace ./src/main/resources/fabric.mod.json Barebones "$CLASSNAME"
+replace ./src/main/resources/barebones.mixins.json barebones "$PKGNAME"
 
 move ./src/main/resources/assets/barebones \
      ./src/main/resources/assets/"$MODID"
