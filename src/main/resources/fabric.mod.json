@@ -1,21 +1,21 @@
 {
 	"schemaVersion": 1,
-	"id": "barebones",
+	"id": "${mod_id}",
 	"version": "${version}",
 
 	"name": "Barebones",
 	"description": "Congrats, you made it work!",
 	"authors": ["LoganDark"],
 	"contact": {
-		"sources": "https://github.com/LoganDark/fabric-barebones",
-		"website": "https://github.com/LoganDark/fabric-barebones",
-		"issues": "https://github.com/LoganDark/fabric-barebones/issues"
+		"sources": "${github_url}",
+		"website": "${github_url}",
+		"issues": "${github_url}/issues"
 	},
 
 	"custom": {},
 
 	"license": "GPLv3",
-	"icon": "assets/barebones/icon.png",
+	"icon": "${icon_path}",
 
 	"environment": "*",
 	"entrypoints": {

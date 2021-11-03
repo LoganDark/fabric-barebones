@@ -43,7 +43,11 @@ processResources {
 		expand "version": project.version,
 			"loader_version": project.loader_version,
 			"fabric_kotlin_version": project.fabric_kotlin_version,
-			"mc_version": project.minecraft_version
+			"mc_version": project.minecraft_version,
+			"mod_id": project.mod_id,
+			"mod_name": project.mod_name,
+			"github_url": project.github_url,
+			"icon_path": project.icon_path
 	}
 }
 
