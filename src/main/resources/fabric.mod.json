@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "${mod_id}",
+	"id": "${archives_base_name}",
 	"version": "${version}",
 
 	"name": "Barebones",
