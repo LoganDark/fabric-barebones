@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger
 
 @Suppress("unused")
 object Barebones : ModInitializer {
-	val logger: Logger = LogManager.getLogger()
+	private val logger: Logger = LogManager.getLogger()
 
 	override fun onInitialize() {
 		logger.info("Hello Fabric world!")
