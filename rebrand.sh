@@ -78,4 +78,5 @@ move ./src/main/resources/assets/barebones \
 move ./src/main/resources/barebones.mixins.json \
      ./src/main/resources/"$MODID".mixins.json
 
+rm README.md
 rm rebrand.sh
